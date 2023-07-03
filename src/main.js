@@ -66,7 +66,7 @@ function printAlert(text = "naruto") {
 }
 
 formUserHTML.addEventListener("submit", function (event) {
-  /*	event.preventDefault(); */
+  	event.preventDefault();
 
   const userFullname = event.target.userFullname.value.trim().toLowerCase();
   const userEmail = event.target.userEmail.value.trim().toLowerCase();
