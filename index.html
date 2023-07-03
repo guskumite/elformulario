@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html | css | js</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="users"></div>
+    </div> -->
+
+    <div class="container">
+        <form id="formUser" class="formUser">
+            <div class="form__control">
+                <label for="userFullname">Full name</label>
+                <input type="text" placeholder="ej: brayan" id="userFullname" name="userFullname">
+            </div>
+
+            <div class="form__control">
+                <label for="userEmail">Email</label>
+                <input type="email" placeholder="ej: brayanlomax@academlo.com" id="userEmail" name="userEmail">
+            </div>
+
+            <div class="form__control">
+                <label for="pass1User">password 1</label>
+                <input type="password" id="pass1User" name="pass1User">
+            </div class="form__control">
+
+            <div class="form__control">
+                <label for="pass2User">password 2</label>
+                <input type="password" id="pass2User" name="pass2User">
+            </div>
+
+            <!-- <select name="countryUser" id="countryUser">
+                    <option value="col">Colombia</option>
+                    <option value="arg">Argentina</option>
+                    <option value="mex">Mexico</option>
+                    <option value="vzl">Venezuela</option>
+                    <option value="bra">Brasil</option>
+                    <option value="ecu">Ecuador</option>
+                    <option value="rd">Republica dominicana</option>
+                    <option value="chl">Chile</option>
+                    <option value="usa">Estados unidos</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="pnm">Panama</option>
+                    <option value="per">Peru</option>
+                </select>
+        
+                <div>
+                    <h3>gender</h3>
+        
+                    <input type="radio" id="man" name="genderUser" value="man">
+                    <label for="man">male</label>
+                    <input type="radio" id="female" name="genderUser" value="famela">
+                    <label for="female">female</label>
+                    <input type="radio" id="na" name="genderUser" checked value="na">
+                    <label for="na">na</label>
+        
+                </div>
+        
+                <div>
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">Agree terms and conditions</label>
+                </div>
+        
+                <div>
+                    <label for="dateBirth">date birth</label>
+                    <input type="date" id="dateBirth" name="dateBirth">
+                </div> -->
+
+            <input class="btn" type="submit" value="Send">
+        </form>
+
+       
+        <div class="users"></div>
+    </div>
+
+    <div class="contentModalError">
+        <div class="modalError">
+            <div class="icon__close">x</div>
+            <h2 id="modalText"></h2>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
